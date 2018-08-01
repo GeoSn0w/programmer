@@ -55,6 +55,7 @@ int continueTheDay(){
 				drinkMoreCoffe();
 			}
 			setProcrastinationSeed(rand);
+			fuckMyLife();
 		}
 		if (mood == 3 && bossIsAnnoying){
 			//beginProcedureToKillBoss(now);
@@ -73,6 +74,8 @@ int continueTheDay(){
 		if (waitForWorkDayEnd() == 0){
 			returnHome();
 		}
+	} else {
+		dontWorryBeHappy(rand);
 	}
 	return 0;
 }
