@@ -52,7 +52,7 @@ int continueTheDay(){
 		} else {
 			work(); // Pay rent
 			if (blood_structure != pure_caffeine){
-				drinkMoreCoffe();
+				drinkMoreCoffee();
 			}
 			setProcrastinationSeed(rand);
 			fuckMyLife();
@@ -61,14 +61,14 @@ int continueTheDay(){
 			//beginProcedureToKillBoss(now);
 			suckItUpAndContinue();
 		} else {
-			drickCoffe();
+			drinkCoffee();
 			beHappy();
 			work();
 		}
 		initRandomThoughts(rand);
 		while (current_hour < 12){
 			energy -= 1;
-			drinkMoreCoffe();
+			drinkMoreCoffee();
 			doEnergyCheck();
 		}
 		if (waitForWorkDayEnd() == 0){
@@ -103,7 +103,7 @@ int main(){
 			}
 			if (beginWakeUpCleanupRoutine() == 0){
 				if (checkCoffeSupplies() != 0){
-					brewCoffe();
+					brewCoffee();
 					continueTheDay();
 				}
 			}
