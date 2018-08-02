@@ -52,7 +52,7 @@ int continueTheDay(){
 		} else {
 			work(); // Pay rent
 			if (blood_structure != pure_caffeine){
-				drinkMoreCoffe();
+				drinkMoreCoffee();
 			}
 			setProcrastinationSeed(rand);
 			fuckMyLife();
