@@ -102,7 +102,7 @@ int main(){
 				clogTheToiletWithPostpone(rand);
 			}
 			if (beginWakeUpCleanupRoutine() == 0){
-				if (checkCoffeSupplies() != 0){
+				if (checkCoffeeSupplies() != 0){
 					brewCoffee();
 					continueTheDay();
 				}
