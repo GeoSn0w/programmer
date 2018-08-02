@@ -61,7 +61,7 @@ int continueTheDay(){
 			//beginProcedureToKillBoss(now);
 			suckItUpAndContinue();
 		} else {
-			drickCoffe();
+			drinkCoffe();
 			beHappy();
 			work();
 		}
