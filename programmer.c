@@ -61,14 +61,14 @@ int continueTheDay(){
 			//beginProcedureToKillBoss(now);
 			suckItUpAndContinue();
 		} else {
-			drinkCoffe();
+			drinkCoffee();
 			beHappy();
 			work();
 		}
 		initRandomThoughts(rand);
 		while (current_hour < 12){
 			energy -= 1;
-			drinkMoreCoffe();
+			drinkMoreCoffee();
 			doEnergyCheck();
 		}
 		if (waitForWorkDayEnd() == 0){
@@ -102,8 +102,8 @@ int main(){
 				clogTheToiletWithPostpone(rand);
 			}
 			if (beginWakeUpCleanupRoutine() == 0){
-				if (checkCoffeSupplies() != 0){
-					brewCoffe();
+				if (checkCoffeeSupplies() != 0){
+					brewCoffee();
 					continueTheDay();
 				}
 			}
