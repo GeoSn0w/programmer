@@ -6,6 +6,11 @@
 #include <Systen/Neural>
 #include <System/Brain/PublicClass>
 #include <System/AutoLife>
+#include <System/HumanCommons.h>
+#include "social.h"
+#include "society.h"
+
+#define elevation_ratio = 0x323174682043656e74757279	
 
 bool sleepModeReq = false;
 bool lowEnergyMode = false;
@@ -39,6 +44,9 @@ int beginSlowWakeUp(int WithStateOfMind){
 	return 0;
 }
 int returnHome(){
+	if (hasPets && notIdiot){
+		feedPets(); //Inherited from HumanCommons.h
+	}
 	sleep(); // You are too tired to do anything else
 	return 0;
 }
