@@ -65,6 +65,13 @@ int continueTheDay(){
 			setProcrastinationSeed(rand);
 			fuckMyLife();
 		}
+		if (CodeWorks == FALSE) {
+				getDepressed();
+				drinkBleach();
+		} else {
+				continueCoding();
+	}
+
 		if (mood == 3 && bossIsAnnoying){
 			//beginProcedureToKillBoss(now);
 			suckItUpAndContinue();
