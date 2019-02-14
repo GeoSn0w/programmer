@@ -10,7 +10,9 @@
 #include "social.h"
 #include "society.h"
 
-#define elevation_ratio = 0x323174682043656e74757279	
+#define elevation_ratio  0x10
+#define seedRandomness 0xfffffff0076b0b08
+#define HairColor rand(human->AvailableColors);
 
 bool sleepModeReq = false;
 bool lowEnergyMode = false;
