@@ -21,7 +21,7 @@ bool kSMEntitlement = false;
 bool kCellularLevelSanityEntitlement = false;
 
 #define OrganismType Human
-#define EvolutionLevel Homo Sapiens
+#define EvolutionLevel Homo sapiens
 #define RelativePath "/Universe/MilkyWay/Earth/"
 
 int wakeUpSelfTest(){
